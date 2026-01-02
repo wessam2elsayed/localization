@@ -1,0 +1,15 @@
+{
+    "MyProfile" : "ملفى",
+     "WessamElsayed" : "وسام السيد",
+    "General" : "عام",
+    "Support" : "دعم",
+    "MyOrders" : "طلبات",
+    "Location" : "الموقع",
+    "ScanQrCode" :" مسح رمز الاستجابة",
+    "PickUpLocation" : "موقع الشحن",
+    "ChangePassword" : "تغيير كلمة المرور",
+    "NeedHelp?" : "مساعدة",
+    "ProtectionGurantee" : "ضمان الحماية",
+    "PrivacyPolicy" : "سياسة الخصوصية",
+    "LogOut" :"تسجيل الخروج"
+}

@@ -1,0 +1,14 @@
+{
+    "MyProfile" : "My profile",
+    "WessamElsayed" : "Wessam Elsayed",
+    "General" : "General",
+    "Support" : "Support",
+    "MyOrders" : "My Orders",
+    "ScanQrCode" : "ScanQrCode",
+    "PickUpLocation" :"PickUpLocation",
+    "ChangePassword" :"ChangePassword",
+    "NeedHelp?" :"Need Help?",
+    "ProtectionGurantee" :"ProtectionGurantee",
+    "PrivacyPolicy" :"PrivacyPolicy",
+    "LogOut" : "LogOut"
+} 
