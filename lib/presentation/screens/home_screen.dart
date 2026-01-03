@@ -52,7 +52,9 @@ class _HomeScreenState extends State<HomeScreen> {
            context.setLocale(const Locale('en'));
            } else {
             context.setLocale(const Locale('ar'));
-           }
+           }setState(() {
+             
+           });
            
 
 
@@ -74,22 +76,22 @@ class _HomeScreenState extends State<HomeScreen> {
           
           children: [
 
-        const NameEmailContainer(),
+         NameEmailContainer(),
         const SizedBox(height: 20,),
 
          Text(AppString.general.tr(),         
          style: textTheme.titleLarge ),
 
-        const GeneralCard(),
+         GeneralCard(),
         const SizedBox(height: 40,),
 
           Text(AppString.support.tr(),         
          style: textTheme.titleLarge ),
 
-         const SupportCard(),
+          SupportCard(),
          const SizedBox(height: 40,),
 
-        const LogOutCard(),
+         LogOutCard(),
           
         ],),
      ),

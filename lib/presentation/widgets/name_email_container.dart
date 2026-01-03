@@ -22,7 +22,7 @@ class NameEmailContainer extends StatelessWidget {
         Text(AppString.wessamelsayed.tr(),style: TextStyle(
           fontSize: 20,
         ),),
-        Text("Wessam@gmail.com",style: TextStyle(
+        Text(AppString.email.tr(),style: TextStyle(
           fontSize: 12,
         ),),            
       ],),

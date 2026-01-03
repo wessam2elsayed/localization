@@ -1,14 +1,15 @@
 {
-    "MyProfile" : "ملفى الشخصى",
+    "MyProfile" : "ملفي الشخصي",
     "WessamElsayed" : "وسام السيد",
+    "Email": "Wessam@gmail.com",
     "General" : "عام",
     "Support" : "الدعم",
     "MyOrders" : "طلباتى",
     "Location" : "الموقع",
-    "ScanQrCode" :" مسح QR ",
+    "ScanQrCode" :"مسح QR",
     "PickUpLocation" : "موقع الاستلام",
     "ChangePassword" : "تغيير كلمة المرور",
-    "NeedHelp?" : "مساعدة",
+    "NeedHelp?" : "تحتاج مساعدة؟",
     "ProtectionGurantee" : "ضمان الحماية",
     "PrivacyPolicy" : "سياسة الخصوصية",
     "LogOut" :"تسجيل الخروج"

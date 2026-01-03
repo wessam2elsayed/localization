@@ -3,6 +3,7 @@
 class AppString {
   static String myprofile = "MyProfile";
   static String wessamelsayed = "WessamElsayed";
+  static String email = "Email";
   static String general = "General";
   static String support = "Support";
   static String myorders = "MyOrders";

@@ -1,15 +1,16 @@
 {
     "MyProfile" : "My profile",
     "WessamElsayed" : "Wessam Elsayed",
+    "Email": "Wessam@gmail.com",
     "General" : "General",
     "Support" : "Support",
     "MyOrders" : "My Orders",
     "Location" : "Location",
-    "ScanQrCode" : "ScanQrCode",
-    "PickUpLocation" :"PickUp Location",
+    "ScanQrCode" : "Scan Qr Code",
+    "PickUpLocation" :"Pick Up Location",
     "ChangePassword" :"Change Password",
     "NeedHelp?" :"Need Help?",
-    "ProtectionGurantee" :"Protection Gurantee",
+    "ProtectionGurantee" :"Protection Guarantee",
     "PrivacyPolicy" :"Privacy Policy",
     "LogOut" : "Log Out"
 } 
