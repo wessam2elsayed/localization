@@ -9,11 +9,11 @@ void main() async{
   
   runApp(
     EasyLocalization(
-      supportedLocales: [Locale('en'), Locale('ar')],
+      supportedLocales:const [Locale('en'), Locale('ar')],
       path: 'assets/translations', // <-- change the path of the translation files 
       fallbackLocale:const Locale('en'),
       startLocale: const Locale('ar'),
-      child: MyApp()
+      child:const MyApp()
     ),
   );
 

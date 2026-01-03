@@ -11,23 +11,25 @@ class NameEmailContainer extends StatelessWidget {
     return  Card(
     
     child: Row(children: [
-       SizedBox(width: 10,),
-      CircleAvatar(radius:35,
+      const SizedBox(width: 10,),
+      const CircleAvatar(radius:35,
       backgroundImage: AssetImage("assets/images/be_your_best_self.png"),
       ),
-      SizedBox(width: 20,),
+      const SizedBox(width: 20,),
       Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-        Text(AppString.wessamelsayed.tr(),style: TextStyle(
+        Text(AppString.wessamelsayed.tr(),
+        style:const TextStyle(
           fontSize: 20,
         ),),
-        Text(AppString.email.tr(),style: TextStyle(
+        Text(AppString.email.tr(),
+        style:const TextStyle(
           fontSize: 12,
         ),),            
       ],),
-      SizedBox(width: 20,),
-      Icon(Icons.edit),
+      const SizedBox(width: 20,),
+      const Icon(Icons.edit),
       
       // IconButton(onPressed: (){}, icon: Icon(Icons.dark_mode))
     ],),);
