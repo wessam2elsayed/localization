@@ -11,9 +11,8 @@ void main() async{
     EasyLocalization(
       supportedLocales: [Locale('en'), Locale('ar')],
       path: 'assets/translations', // <-- change the path of the translation files 
-      fallbackLocale: Locale('en'),
+      fallbackLocale:const Locale('en'),
       startLocale: const Locale('ar'),
-
       child: MyApp()
     ),
   );
@@ -38,7 +37,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
 
-       localizationsDelegates: context.localizationDelegates,
+      localizationsDelegates: context.localizationDelegates,
       supportedLocales: context.supportedLocales,
       locale: context.locale,
       

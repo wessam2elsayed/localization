@@ -4,11 +4,12 @@
     "General" : "General",
     "Support" : "Support",
     "MyOrders" : "My Orders",
+    "Location" : "Location",
     "ScanQrCode" : "ScanQrCode",
-    "PickUpLocation" :"PickUpLocation",
-    "ChangePassword" :"ChangePassword",
+    "PickUpLocation" :"PickUp Location",
+    "ChangePassword" :"Change Password",
     "NeedHelp?" :"Need Help?",
-    "ProtectionGurantee" :"ProtectionGurantee",
-    "PrivacyPolicy" :"PrivacyPolicy",
-    "LogOut" : "LogOut"
+    "ProtectionGurantee" :"Protection Gurantee",
+    "PrivacyPolicy" :"Privacy Policy",
+    "LogOut" : "Log Out"
 } 

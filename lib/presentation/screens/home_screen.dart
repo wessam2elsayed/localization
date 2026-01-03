@@ -1,4 +1,4 @@
-// import 'package:easy_localization/easy_localization.dart';
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:localization/core/strings/strings.dart';
 import 'package:localization/presentation/widgets/general_card.dart';
@@ -35,7 +35,7 @@ class _HomeScreenState extends State<HomeScreen> {
         leading: IconButton(onPressed: (){},
          icon:const Icon(Icons.arrow_back)),
          title:  Center(
-          child:  Text(AppString.myprofile,
+          child:  Text(AppString.myprofile.tr(),
           style: Theme.of(context).textTheme.titleLarge,
         ),
       ),
@@ -46,15 +46,23 @@ class _HomeScreenState extends State<HomeScreen> {
         widget.isDark?Icons.light_mode : Icons.dark_mode
       )
       ),
-      // IconButton(
-      //   onPressed: (){
-      //     context.setLocale(Locale('en'));
-      //     setState(() { });
-      //   },
+      IconButton(
+        onPressed: (){
+          if (context.locale.languageCode == 'ar') {
+           context.setLocale(const Locale('en'));
+           } else {
+            context.setLocale(const Locale('ar'));
+           }
+           
+
+
+          // context.setLocale(Locale('en'));
+          // setState(() { });
+        },
         
-      //    icon:Icon(Icons.language
-      // )
-      // )
+         icon:Icon(Icons.language
+      )
+      )
            ],
         
          ),
@@ -69,13 +77,13 @@ class _HomeScreenState extends State<HomeScreen> {
         const NameEmailContainer(),
         const SizedBox(height: 20,),
 
-         Text(AppString.general,         
+         Text(AppString.general.tr(),         
          style: textTheme.titleLarge ),
 
         const GeneralCard(),
         const SizedBox(height: 40,),
 
-          Text(AppString.support,         
+          Text(AppString.support.tr(),         
          style: textTheme.titleLarge ),
 
          const SupportCard(),

@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:localization/core/strings/strings.dart';
 
@@ -18,7 +19,7 @@ class NameEmailContainer extends StatelessWidget {
       Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-        Text(AppString.wessamelsayed,style: TextStyle(
+        Text(AppString.wessamelsayed.tr(),style: TextStyle(
           fontSize: 20,
         ),),
         Text("Wessam@gmail.com",style: TextStyle(

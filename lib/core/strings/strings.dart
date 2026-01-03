@@ -1,17 +1,17 @@
-import 'package:easy_localization/easy_localization.dart';
+
 
 class AppString {
-  static String myprofile = "MyProfile".tr();
-  static String wessamelsayed = "WessamElsayed".tr();
-  static String general = "General".tr();
-  static String support = "Support".tr();
-  static String myorders = "MyOrders".tr();
-  static String location = "Location".tr();
-  static String scanqrcode = "ScanQrCode".tr();
-  static String pickuplocation ="PickUpLocation".tr();
-  static String changepassword = "ChangePassword".tr();
-  static String needhelp = "NeedHelp?".tr();
-  static String protectionguarantee = "ProtectionGurantee".tr();
-  static String privacypolicy = "PrivacyPolicy".tr();
-  static String logout = "LogOut".tr();
+  static String myprofile = "MyProfile";
+  static String wessamelsayed = "WessamElsayed";
+  static String general = "General";
+  static String support = "Support";
+  static String myorders = "MyOrders";
+  static String location = "Location";
+  static String scanqrcode = "ScanQrCode";
+  static String pickuplocation ="PickUpLocation";
+  static String changepassword = "ChangePassword";
+  static String needhelp = "NeedHelp?";
+  static String protectionguarantee = "ProtectionGurantee";
+  static String privacypolicy = "PrivacyPolicy";
+  static String logout = "LogOut";
 }
